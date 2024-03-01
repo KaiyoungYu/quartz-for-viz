@@ -11,7 +11,7 @@ const config: QuartzConfig = {
       tagId: 'G-4JWCJR9X3X'
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "visualization.wiki",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
