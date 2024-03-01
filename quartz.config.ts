@@ -6,7 +6,10 @@ const config: QuartzConfig = {
     pageTitle: "🪴 Quartz 4.0",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: {
+      provider: 'google', 
+      tagId: 'G-4JWCJR9X3X'
+    },
     locale: "en-US",
     baseUrl: "visualization.wiki",
     ignorePatterns: ["private", "templates", ".obsidian"],
