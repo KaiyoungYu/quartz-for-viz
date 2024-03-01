@@ -39,7 +39,7 @@ export default (() => {
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
         
-        <!-- Google tag (gtag.js) -->
+        
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-4JWCJR9X3X"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
