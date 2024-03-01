@@ -38,17 +38,14 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
-        
-        
+        <script defer src="https://us.umami.is/script.js" data-website-id="ba76a54f-9ccc-4021-8209-099972ba5d10"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-4JWCJR9X3X"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments)}
           gtag('js', new Date());
-        
           gtag('config', 'G-4JWCJR9X3X');
         </script>
-        <script defer src="https://us.umami.is/script.js" data-website-id="ba76a54f-9ccc-4021-8209-099972ba5d10"></script>
       </head>
     )
   }
