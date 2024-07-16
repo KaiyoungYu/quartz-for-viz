@@ -1,3 +1,9 @@
-# 测试主页
+---
+title: Welcome to Quartz
+---
 
-this site is under testing!
+This is a blank Quartz installation.
+See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
+
+<iframe src="https://www.baidu.com"></iframe>
